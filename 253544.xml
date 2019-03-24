@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Metrics scope="SoftwareEffortEstimation" type="Project" date="2019-03-24" xmlns="http://metrics.sourceforge.net/2003/Metrics-First-Flat">
+   <Metric id = "VG" description ="McCabe Cyclomatic Complexity" max ="10" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.366" stddev = "1.33" max = "7">
+         <Value name="weightingActors" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="wReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="weightingUseCases" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="calculateER" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="CalculateWeightingEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="CalculateWeightingTF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalAT" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculate" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getAdjustMenHours" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="InputPercentage" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeWeightingReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeTechnicalFactor" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalManHours" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalR" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="main" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorTypeTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="EstimationReportTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingUseCaseTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalUCT" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getUUCP" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getEFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getUCP" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getSzUC" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTCF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "PAR" description ="Number of Parameters" max ="5" hint ="Move invoked method or pass an object">
+      <Values per = "method" avg = "1.061" stddev = "0.942" max = "3">
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="calculationActorPoint" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeWeightingReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeTechnicalFactor" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="executeUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationExperienceFactor" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationTechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationExperienceFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationTechnicalFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculate" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="main" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTotalAT" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="weightingActors" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getAdjustMenHours" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="InputPercentage" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateER" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTotalManHours" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTotalR" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="wReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ActorTypeTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="EstimationReportTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingUseCaseTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTotalUCT" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getUUCP" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="weightingUseCases" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="CalculateWeightingEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getEFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getUCP" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="CalculateWeightingTF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getSzUC" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTCF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="getTFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NBD" description ="Nested Block Depth" max ="5" hint ="use Extract-method to split the method up">
+      <Values per = "method" avg = "1.085" stddev = "0.666" max = "4">
+         <Value name="CalculateWeightingEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="CalculateWeightingTF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="weightingActors" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="wReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="weightingUseCases" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="calculateER" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalAT" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculate" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getAdjustMenHours" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="InputPercentage" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeWeightingReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeTechnicalFactor" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalManHours" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalR" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="main" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorTypeTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="EstimationReportTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingUseCaseTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTotalUCT" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getUUCP" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getEFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getUCP" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getSzUC" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTCF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getTFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationActorPoint" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationExperienceFactor" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationMenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationTechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationUseCase" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationWeightingReport" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CA" description ="Afferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "CE" description ="Efferent Coupling">
+      <Values per = "packageFragment" avg = "0" stddev = "0" max = "0">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMI" description ="Instability">
+      <Values per = "packageFragment" avg = "1" stddev = "0" max = "1">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMA" description ="Abstractness">
+      <Values per = "packageFragment" avg = "0.171" stddev = "0" max = "0.171">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="0.171"/>
+      </Values>
+   </Metric>
+   <Metric id = "RMD" description ="Normalized Distance">
+      <Values per = "packageFragment" avg = "0.171" stddev = "0" max = "0.171">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="0.171"/>
+      </Values>
+   </Metric>
+   <Metric id = "DIT" description ="Depth of Inheritance Tree">
+      <Values per = "type" avg = "1.857" stddev = "2.206" max = "8">
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="8"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="8"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="6"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "WMC" description ="Weighted methods per Class">
+      <Values per = "type" total = "112" avg = "3.2" stddev = "3.86" max = "13">
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="13"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="12"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="12"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="12"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="11"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="8"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSC" description ="Number of Children">
+      <Values per = "type" total = "28" avg = "0.8" stddev = "1.26" max = "4">
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NORM" description ="Number of Overridden Methods">
+      <Values per = "type" total = "0" avg = "0" stddev = "0" max = "0">
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "LCOM" description ="Lack of Cohesion of Methods">
+      <Values per = "type" avg = "0.098" stddev = "0.241" max = "0.857">
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0.857"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0.85"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0.733"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0.5"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0.25"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0.25"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOF" description ="Number of Attributes">
+      <Values per = "type" total = "36" avg = "1.029" stddev = "1.765" max = "7">
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSF" description ="Number of Static Attributes">
+      <Values per = "type" total = "10" avg = "0.286" stddev = "0.658" max = "3">
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOM" description ="Number of Methods">
+      <Values per = "type" total = "81" avg = "2.314" stddev = "2.135" max = "8">
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="8"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="8"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="7"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="6"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="5"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="4"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NSM" description ="Number of Static Methods">
+      <Values per = "type" total = "1" avg = "0.029" stddev = "0.167" max = "1">
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "SIX" description ="Specialization Index">
+      <Values per = "type" avg = "0" stddev = "0" max = "0">
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ActorType" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="ExperienceFactors" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="MultipleTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="SoftwareEffortEstimation" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Tables" source ="Tables.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="TechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCaseType" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingReports" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageActor" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateAverageUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexActor" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateComplexUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs1" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateMenHrs2" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleActor" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculateSimpleUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOC" description ="Number of Classes">
+      <Values per = "packageFragment" total = "35" avg = "35" stddev = "0" max = "35">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="35"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOI" description ="Number of Interfaces">
+      <Values per = "packageFragment" total = "6" avg = "6" stddev = "0" max = "6">
+         <Value name="SoftwareEffortEstimation" package ="SoftwareEffortEstimation" value ="6"/>
+      </Values>
+   </Metric>
+   <Metric id = "NOP" description ="Number of Packages">
+      <Value value="1"/>
+   </Metric>
+   <Metric id = "TLOC" description ="Total Lines of Code">
+      <Value value="698"/>
+   </Metric>
+   <Metric id = "MLOC" description ="Method Lines of Code">
+      <Values per = "method" total = "369" avg = "4.5" stddev = "9.073" max = "42">
+         <Value name="wReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="42"/>
+         <Value name="weightingUseCases" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="42"/>
+         <Value name="weightingActors" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="41"/>
+         <Value name="main" source ="SoftwareEffortEstimation.java" package ="SoftwareEffortEstimation" value ="30"/>
+         <Value name="WeightingTechnicalFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="29"/>
+         <Value name="calculateER" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="20"/>
+         <Value name="WeightingExperienceFactorsTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="19"/>
+         <Value name="CalculateWeightingEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="11"/>
+         <Value name="CalculateWeightingTF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="11"/>
+         <Value name="ActorTypeTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="9"/>
+         <Value name="EstimationReportTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="9"/>
+         <Value name="WeightingUseCaseTable" source ="Tables.java" package ="SoftwareEffortEstimation" value ="9"/>
+         <Value name="InputPercentage" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="6"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getEF" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getEFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getUCP" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getSzUC" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getTCF" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="getTFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="3"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="getTotalAT" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculate" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="getTotalManHours" source ="Report.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="getTotalR" source ="Report.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="getTotalUCT" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="getUUCP" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateAverageActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateAverageReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateAverageUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateComplexActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateComplexReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateComplexUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs1.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationMenHrs" source ="calculateMenHrs2.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="calculateSimpleActor.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationWeightingReport" source ="calculateSimpleReport.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationUseCase" source ="calculateSimpleUseCase.java" package ="SoftwareEffortEstimation" value ="2"/>
+         <Value name="calculationActorPoint" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="getAdjustMenHours" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeActor" source ="ContextActor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeExperienceFactor" source ="ContextExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeMenHrs" source ="ContextMenHrs.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeWeightingReport" source ="ContextReport.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextTechnicalFactors" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeTechnicalFactor" source ="ContextTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ContextUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="executeUseCase" source ="ContextUseCase.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationMenHrs" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="MultipleExperienceFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="MultipleTechnicalFactor.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationWeightingReport" source ="Report.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationUseCase" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationExperienceFactor" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="calculationTechnicalFactor" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="1"/>
+         <Value name="ActorPoints" source ="ActorPoints.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationActorPoint" source ="ActorType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustMH" source ="AdjustMH.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="AdjustManHours" source ="AdjustManHours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationExperienceFactor" source ="ExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationMenHrs" source ="MenHrs.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Menhours" source ="Menhours.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="Report" source ="Report.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationTechnicalFactor" source ="TechnicalFactor.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="UseCasePoint" source ="UseCasePoint.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationUseCase" source ="UseCaseType.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingExperienceFactors" source ="WeightingExperienceFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="calculationWeightingReport" source ="WeightingReports.java" package ="SoftwareEffortEstimation" value ="0"/>
+         <Value name="WeightingTechnicalFactors" source ="WeightingTechnicalFactors.java" package ="SoftwareEffortEstimation" value ="0"/>
+      </Values>
+   </Metric>
+   </Metrics>
